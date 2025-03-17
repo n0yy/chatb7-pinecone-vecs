@@ -2,4 +2,5 @@ langchain
 langchain-community
 langchain-docling
 langchain-google-genai
+langchain-pinecone
 streamlit

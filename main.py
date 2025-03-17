@@ -62,7 +62,7 @@ if submit:
 
                 # Split the document
                 splitter = RecursiveCharacterTextSplitter(
-                    chunk_size=500, chunk_overlap=100
+                    chunk_size=1000, chunk_overlap=200
                 )
                 docs = splitter.split_documents(doc)
 

@@ -77,8 +77,8 @@ if submit:
         status_text = st.empty()
 
         # Tampilkan informasi ukuran chunk
-        chunk_size = 400
-        chunk_overlap = 50
+        chunk_size = 1000
+        chunk_overlap = 200
         st.info(
             f"Menggunakan chunk_size={chunk_size} dan chunk_overlap={chunk_overlap} untuk menghindari masalah batas token"
         )
